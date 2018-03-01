@@ -1,0 +1,36 @@
+[
+  {
+    "id": "development",
+    "text": "Development",
+    "items": [
+      { "text": "Dirty Markup", "url": "https://www.10bestdesign.com/dirtymarkup/" },
+      { "text": "JSON", "url": "https://jsoneditoronline.org/" },
+      { "text": "http-server", "url": "https://www.npmjs.com/package/http-server" }
+    ]
+  },
+  {
+    "id": "design",
+    "text": "Design",
+    "items": [
+      { "text": "Designer", "url": "https://www.designer.io/" },
+      { "text": "Gravit", "url": "https://designer.gravit.io" }
+    ]
+  },
+  {
+    "id": "github",
+    "text": "GitHub",
+    "items": [
+      { "text": "Home", "url": "https://github.com/" },
+      { "text": "smackenz", "url": "https://smackenz.github.io" },
+      { "text": "smackenz api", "url": "https://api.github.com/repos/smackenz/bookmarks/contents/README.md" },
+      { "text": "smackenz raw", "url": "https://raw.githubusercontent.com/smackenz/bookmarks/contents/README.md" }
+    ]
+  },
+  {
+    "id": "icons",
+    "text": "Icons",
+    "items": [
+      { "text": "Octicons", "url": "https://octicons.github.com/" }
+    ]
+  }
+]

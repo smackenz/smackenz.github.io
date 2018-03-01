@@ -1,0 +1,33 @@
+{
+  "name": "@smack/smackenz.github.io",
+  "private": true,
+  "version": "0.0.1",
+  "description": "https://smackenz.github.io/ website.",
+  "main": "server.js",
+  "homepage": "https://smackenz.github.io/",
+  "engines": {
+    "node": "5",
+    "npm": "3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://smackenz.github.io/"
+  },
+  "author": "Stuart MacKenzie",
+  "license": "MIT",
+  "browserify": {},
+  "scripts": {
+    "build": "node scripts/build",
+    "start": "npm run build && http-server . -p 9000 -c-1"
+  },
+  "dependencies": {
+    "fs-extra": "^5.0.0",
+    "lodash": "^4.17.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^8.0.0",
+    "node-sass": "^4.7.2",
+    "postcss": "^6.0.19",
+    "pug": "^2.0.0-rc.4"
+  }
+}
